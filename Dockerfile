@@ -63,6 +63,5 @@ RUN apt-get install -y \
   nodejs-legacy \
   npm \
   libpam0g-dev \
-  libmozjs-17.0-dev \
   python-dev \
   nasm
