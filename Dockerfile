@@ -1,4 +1,4 @@
-FROM vcatechnology/linux-mint-ci:17.3
+FROM vcatechnology/linux-mint-ci:18
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
