@@ -5,6 +5,7 @@ MAINTAINER VCA Technology <developers@vcatechnology.com>
 RUN apt-get install -y \
   g++ \
   libtool \
+  libtool-bin \
   realpath \
   debhelper \
   p7zip-full \
@@ -47,6 +48,8 @@ RUN apt-get install -y \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer-plugins-good1.0-dev \
   libgstreamer-plugins-bad1.0-dev \
+  gstreamer1.0-plugins-ugly \
+  gstreamer1.0-libav \
   libsigc++-2.0-dev \
   libidn11-dev \
   libtasn1-6-dev \
@@ -64,4 +67,11 @@ RUN apt-get install -y \
   npm \
   libpam0g-dev \
   python-dev \
-  nasm
+  nasm \
+  libavdevice-dev \
+  libattr1-dev \
+  libcap-dev \
+  libmount-dev \
+  libsystemd-dev \
+  libudev-dev \
+  libgudev-1.0-dev \
