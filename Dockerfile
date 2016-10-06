@@ -2,7 +2,7 @@ FROM vcatechnology/linux-mint-ci:18
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN apt-get install -y \
+RUN sudo apt-get install -y \
   g++ \
   libtool \
   libtool-bin \
