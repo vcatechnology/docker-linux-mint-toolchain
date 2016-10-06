@@ -3,6 +3,7 @@ MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
 RUN sudo apt-get install -y \
+  python-pip \
   g++ \
   libtool \
   libtool-bin \
@@ -74,4 +75,8 @@ RUN sudo apt-get install -y \
   libmount-dev \
   libsystemd-dev \
   libudev-dev \
-  libgudev-1.0-dev \
+  libgudev-1.0-dev
+
+RUN sudo pip install --upgrade pip
+RUN sudo pip install setuptools
+RUN sudo pip install pystache requests pytz
