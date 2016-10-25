@@ -76,8 +76,10 @@ RUN sudo apt-get install -y \
   libsystemd-dev \
   libudev-dev \
   libgudev-1.0-dev \
-  subunit
+  subunit \
+  python-pystache \
+  python-requests
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
-RUN sudo pip install pystache requests pytz
+RUN sudo pip install pytz
