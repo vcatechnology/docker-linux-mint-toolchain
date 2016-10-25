@@ -75,7 +75,8 @@ RUN sudo apt-get install -y \
   libmount-dev \
   libsystemd-dev \
   libudev-dev \
-  libgudev-1.0-dev
+  libgudev-1.0-dev \
+  subunit
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
