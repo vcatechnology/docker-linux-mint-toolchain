@@ -78,7 +78,8 @@ RUN sudo apt-get install -y \
   libgudev-1.0-dev \
   subunit \
   python-pystache \
-  python-requests
+  python-requests \
+  libbz2-dev
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
