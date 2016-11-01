@@ -83,4 +83,4 @@ RUN sudo apt-get install -y \
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
-RUN sudo pip install pytz
+RUN sudo pip install pytz cpplint
