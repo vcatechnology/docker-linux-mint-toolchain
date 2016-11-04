@@ -79,7 +79,8 @@ RUN sudo apt-get install -y \
   subunit \
   python-pystache \
   python-requests \
-  libbz2-dev
+  libbz2-dev \
+  llvm
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
