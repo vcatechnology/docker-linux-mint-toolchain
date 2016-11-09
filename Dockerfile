@@ -80,7 +80,15 @@ RUN sudo apt-get install -y \
   python-pystache \
   python-requests \
   libbz2-dev \
-  llvm
+  llvm \
+  llvm-dev \
+  clang-format \
+  clang-tidy \
+  libgpg-error-dev \
+  libgcrypt11-dev \
+  libndp-dev \
+  libnspr4-dev \
+  unrar
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
