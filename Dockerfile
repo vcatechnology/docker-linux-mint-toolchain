@@ -1,8 +1,8 @@
-FROM vcatechnology/linux-mint-ci:18
+FROM vcatechnology/linux-mint-ci
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN sudo apt-get install -y \
+RUN sudo vca-install-package \
   python-pip \
   g++ \
   libtool \
