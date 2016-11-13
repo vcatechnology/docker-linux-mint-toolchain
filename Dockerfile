@@ -9,7 +9,7 @@ ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="$PROJECT_NAME" \
       org.label-schema.description="An up-to-date Linux Mint image with VCA tool chain packages" \
-      org.label-schema.url="https://www.debian.org/" \
+      org.label-schema.url="https://www.linuxmint.com/" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/vcatechnology/docker-linux-mint-toolchain" \
       org.label-schema.vendor="VCA Technology" \
