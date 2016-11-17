@@ -25,7 +25,6 @@ RUN sudo vca-install-package \
   bc \
   bison \
   check \
-  clang-format \
   cmake \
   comerr-dev \
   debhelper \
