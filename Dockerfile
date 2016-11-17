@@ -83,6 +83,7 @@ RUN sudo vca-install-package \
   nodejs-legacy \
   npm \
   libpam0g-dev \
+  libmozjs-24-dev \
   python-dev \
   nasm \
   libavdevice-dev \
