@@ -121,7 +121,7 @@ RUN sudo vca-install-package \
   libsqlite3-dev \
   libssl-dev \
   libsubunit-dev \
-  libsystemd-dev \
+  libsystemd-daemon-dev \
   libtasn1-6-dev \
   libtinyxml-dev \
   libtool \
