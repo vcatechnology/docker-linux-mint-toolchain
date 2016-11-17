@@ -125,7 +125,7 @@ RUN sudo vca-install-package \
   libtasn1-6-dev \
   libtinyxml-dev \
   libtool \
-  libtool-bin \
+  libverto-dev \
   libudev-dev \
   libusb-1.0-0-dev \
   libva-dev \
