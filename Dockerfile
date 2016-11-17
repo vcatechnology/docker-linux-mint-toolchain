@@ -94,7 +94,6 @@ RUN sudo vca-install-package \
   libmpfr-dev \
   libncurses5-dev \
   libncursesw5-dev \
-  libndp-dev \
   libnl-3-dev \
   libnl-cli-3-dev \
   libnm-dev \
