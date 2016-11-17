@@ -104,7 +104,7 @@ RUN sudo vca-install-package \
   libgcrypt11-dev \
   libndp-dev \
   libnspr4-dev \
-  unrar
+  unrar-free
 
 RUN sudo pip install --upgrade pip
 RUN sudo pip install setuptools
