@@ -109,6 +109,6 @@ RUN sudo vca-install-package \
   bison \
   flex
 
-RUN sudo pip install --upgrade pip
-RUN sudo pip install setuptools
-RUN sudo pip install pytz cpplint
+RUN pip install --user --upgrade pip
+RUN pip install --user setuptools
+RUN pip install --user pytz cpplint sseclient
