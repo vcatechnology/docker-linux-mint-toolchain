@@ -107,8 +107,9 @@ RUN sudo vca-install-package \
   libnspr4-dev \
   unrar-free \
   bison \
-  flex
+  flex \
+  python-coverage
 
 RUN pip install --user --upgrade pip
 RUN pip install --user setuptools
-RUN pip install --user pytz cpplint sseclient
+RUN pip install --user pytz cpplint sseclient backports.functools_lru_cache
