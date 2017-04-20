@@ -145,7 +145,6 @@ RUN sudo vca-install-package \
   python-pystache \
   python-requests \
   qemu \
-  rapidjson-dev \
   realpath \
   ss-dev \
   stress \
