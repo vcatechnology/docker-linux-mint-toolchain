@@ -63,7 +63,7 @@ RUN sudo vca-install-package \
   libisl-dev \
   libgcrypt11-dev \
   libgmp-dev \
-  libgnutls-dev \
+  libgnutls28-dev \
   libgpg-error-dev \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
