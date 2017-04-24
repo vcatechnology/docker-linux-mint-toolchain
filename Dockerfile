@@ -52,6 +52,7 @@ RUN sudo vca-install-package \
   libattr1-dev \
   libavdevice-dev \
   libboost-all-dev \
+  libblkid-dev \
   libbz2-dev \
   libcap-dev \
   libcap-ng-dev \
