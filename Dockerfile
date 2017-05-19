@@ -26,7 +26,6 @@ RUN sudo vca-install-package \
   bison \
   check \
   cmake \
-  comerr-dev \
   debhelper \
   dfu-util \
   dialog \
@@ -86,7 +85,6 @@ RUN sudo vca-install-package \
   libjansson-dev \
   libjpeg-turbo8-dev \
   libkrad-dev \
-  libkrb5-dev \
   libkeyutils-dev \
   libmount-dev \
   libmozjs185-dev \
