@@ -28,9 +28,11 @@ RUN sudo vca-install-package \
   clang-format \
   clang-tidy \
   cmake \
+  comerr-dev \
   debhelper \
   dialog \
   doxygen \
+  e2fslibs-dev \
   flex \
   g++ \
   gawk \
@@ -79,6 +81,8 @@ RUN sudo vca-install-package \
   libidn11-dev \
   libjansson-dev \
   libjpeg-turbo8-dev \
+  libkrad-dev \
+  libkrb5-dev \
   libmount-dev \
   libmozjs-24-dev \
   libmpc-dev \
@@ -111,6 +115,7 @@ RUN sudo vca-install-package \
   libtinyxml-dev \
   libtool \
   libtool-bin \
+  libverto-dev \
   libudev-dev \
   libusb-1.0-0-dev \
   libx264-dev \
@@ -132,6 +137,7 @@ RUN sudo vca-install-package \
   qemu \
   rapidjson-dev \
   realpath \
+  ss-dev \
   stress \
   subunit \
   unrar-free \
