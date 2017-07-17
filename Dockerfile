@@ -130,7 +130,6 @@ RUN sudo vca-install-package \
   npm \
   p7zip-full \
   pandoc \
-  python-coverage \
   python-dev \
   python-pip \
   python-pystache \
@@ -151,4 +150,4 @@ RUN sudo vca-install-package \
 
 RUN pip install --user --upgrade pip
 RUN pip install --user setuptools
-RUN pip install --user pytz cpplint sseclient backports.functools_lru_cache
+RUN pip install --user pytz cpplint sseclient backports.functools_lru_cache coverage
