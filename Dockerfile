@@ -30,7 +30,10 @@ RUN sudo vca-install-package \
   cmake \
   comerr-dev \
   debhelper \
+  dfu-util \
   dialog \
+  dnsmasq \
+  dosfstools \
   doxygen \
   e2fslibs-dev \
   flex \
@@ -47,6 +50,7 @@ RUN sudo vca-install-package \
   gstreamer1.0-plugins-good \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-tools \
+  gstreamer1.0-vaapi \
   intltool \
   iptables \
   libaa-bin \
@@ -87,6 +91,7 @@ RUN sudo vca-install-package \
   libkrb5-dev \
   libmount-dev \
   libmozjs-24-dev \
+  libmozjs185-dev \
   libmpc-dev \
   libmpfr-dev \
   libncurses5-dev \
@@ -94,6 +99,7 @@ RUN sudo vca-install-package \
   libndp-dev \
   libnl-3-dev \
   libnl-cli-3-dev \
+  libnm-dev \
   libnspr4-dev \
   libntlm0-dev \
   libopencv-dev \
@@ -102,8 +108,11 @@ RUN sudo vca-install-package \
   libpciaccess-dev \
   libpcre3-dev \
   libpng12-dev \
+  libpolkit-agent-1-dev \
+  libpolkit-gobject-1-dev \
   libpopt-dev \
   libprotobuf-dev \
+  libprotoc-dev \
   libqt4-dev \
   libqt4-opengl-dev \
   librapidxml-dev \
@@ -119,7 +128,9 @@ RUN sudo vca-install-package \
   libtool-bin \
   libudev-dev \
   libusb-1.0-0-dev \
+  libva-dev \
   libverto-dev \
+  libwebp-dev \
   libx264-dev \
   llvm \
   llvm-dev \
@@ -127,10 +138,12 @@ RUN sudo vca-install-package \
   nasm \
   ncurses-term \
   nettle-dev \
+  network-manager \
   nodejs-legacy \
   npm \
   p7zip-full \
   pandoc \
+  protobuf-compiler \
   python-dev \
   python-pip \
   python-pystache \
