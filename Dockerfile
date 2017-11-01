@@ -37,8 +37,8 @@ RUN sudo vca-install-package \
   g++ \
   gawk \
   gdisk \
-  gperf \
   gnu-efi \
+  gperf \
   graphviz \
   gsoap \
   gstreamer1.0-alsa \
@@ -51,12 +51,12 @@ RUN sudo vca-install-package \
   iptables \
   libaa-bin \
   libaa1-dev \
-  libasound2-dev \
   libasm-dev \
+  libasound2-dev \
   libattr1-dev \
   libavdevice-dev \
-  libboost-all-dev \
   libblkid-dev \
+  libboost-all-dev \
   libbz2-dev \
   libcap-dev \
   libcap-ng-dev \
@@ -67,20 +67,20 @@ RUN sudo vca-install-package \
   libeigen3-dev \
   libelf-dev \
   libffi-dev \
-  libisl-dev \
   libgcrypt11-dev \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
+  libgsoap-dev \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer-plugins-good1.0-dev \
   libgstreamer1.0-dev \
   libgstrtspserver-1.0-dev \
-  libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
+  libisl-dev \
   libjansson-dev \
   libjpeg-turbo8-dev \
   libkrad-dev \
@@ -117,9 +117,9 @@ RUN sudo vca-install-package \
   libtinyxml-dev \
   libtool \
   libtool-bin \
-  libverto-dev \
   libudev-dev \
   libusb-1.0-0-dev \
+  libverto-dev \
   libx264-dev \
   llvm \
   llvm-dev \
@@ -143,8 +143,8 @@ RUN sudo vca-install-package \
   subunit \
   unrar-free \
   uuid-runtime \
-  vde2 \
   valgrind \
+  vde2 \
   xzdec \
   yasm \
   zlib1g-dev
