@@ -94,7 +94,6 @@ RUN sudo vca-install-package \
   libncursesw5-dev \
   libnl-3-dev \
   libnl-cli-3-dev \
-  libnm-dev \
   libnspr4-dev \
   libntlm0-dev \
   libopencv-dev \
