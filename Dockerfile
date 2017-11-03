@@ -37,6 +37,7 @@ RUN sudo vca-install-package \
   g++ \
   gawk \
   gdisk \
+  gdbserver \
   gnu-efi \
   gperf \
   graphviz \
