@@ -149,6 +149,7 @@ RUN sudo vca-install-package \
   ss-dev \
   stress \
   subunit \
+  systemd \
   unrar-free \
   uuid-runtime \
   valgrind \
