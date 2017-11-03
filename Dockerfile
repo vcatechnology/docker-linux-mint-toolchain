@@ -57,6 +57,7 @@ RUN sudo vca-install-package \
   libasound2-dev \
   libattr1-dev \
   libavdevice-dev \
+  libavfilter-dev \
   libblkid-dev \
   libboost-all-dev \
   libbz2-dev \
