@@ -1,4 +1,4 @@
-FROM vcatechnology/linux-mint-ci
+FROM vcatechnology/linux-mint-ci:18.2
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Build-time metadata as defined at http://label-schema.org
